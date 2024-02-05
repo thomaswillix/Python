@@ -1,0 +1,13 @@
+from  random import choice
+
+
+def mensaje():
+    li = ["Vuelve después… Estoy durmiendo (Sí, las galletas necesitan dormir también).","¡Algún tipo de alienígena se te aparecerá próximamente!",
+          "Puedo confiar en ti para guardar un secreto.","Ignora la galleta anterior.","Ya era hora de que saliera de la galleta.",
+          " Ups… Error en galleta."]
+    
+    
+    print(choice[li]) 
+
+
+mensaje()
